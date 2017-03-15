@@ -1,0 +1,3 @@
+En las siguientes imagenes podemos ver el correcto funcionamiento de los dos servidores,
+dicho funcionamiento se comprueba con los comandos apache2 -v para ver la versión de apache
+y ps aux | grep apache para ver si el servidor está en funcionamiento.
