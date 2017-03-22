@@ -1,4 +1,4 @@
-# Práctica 
+# Práctica 2
 Para el primer ejercicio hay que comprobar el correcto funcionamiento de la copia de archivos por ssh, para ello usamos el comando `scp prueba.html rafa@192.168.56.101:/var/www` esta orden copiaría el archivo desde la máquina en la que se ejecuta la orden, hasta la que se realiza el ssh. En la siguiente foto se aprecia como al usar el comando el archivo prueba.html se pasa de la máquina dos a la uno.
 
 ![Captura 1](http://imgur.com/AfHnfxf.jpg "Captura de la prueba")
