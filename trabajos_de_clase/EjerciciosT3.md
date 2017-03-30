@@ -3,7 +3,7 @@
 ### Ejercicio 1
 Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.
 
-En Windows existe uns ervicio llamado Servicio de enrutamiento y acceso remoto con el que se agrega al servidor gracias a un asistente.
+En Windows existe un servicio llamado Servicio de enrutamiento y acceso remoto con el que se agrega al servidor gracias a un asistente.
 Mientras que en Linux se usa la orden: `route add -net ipDestino/mascara gw enrutador saltos`
 
 ### Ejercicio 2
