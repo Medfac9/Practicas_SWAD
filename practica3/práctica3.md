@@ -3,7 +3,7 @@
 En la tarea uno, se pide configurar una máquina e instalarle el nginx como balanceador de carga. Para ello, ejecutamos estas tres instrucciones:  
 `sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove`  
 `sudo apt-get install nginx`  
-`sudo systemctl start nginx`.  
+`sudo systemctl start nginx`  
 Una vez insstalado nginx, configuramos el fichero `/etc/nginx/conf.d/default.conf` con la siguiente información.
 
 ![Captura 1](http://imgur.com/lYuvkpr.jpg "Configuración nginx")
@@ -23,7 +23,6 @@ Para combrobar el correcto funcionamiento, usamos `curl http://IP del balanceado
 ![Captura 5](http://imgur.com/V2FIYFZ.jpg "Prueba haproxy")
 
 Por último, en la tercera tarea, se nos pide someter a la granja web a una alta carga, teniendo primero nginx y después haproxy. Para ello, utilizaremos el comando `ab -n 1000 -c 10 http://192.168.2.121/index.html` y obtenemos los siguientes resultados:
-	
 	* Para nginx:
 		![Captura 6](http://imgur.com/WF7WKpt.jpg "nginx")
 	* Para haproxy:
