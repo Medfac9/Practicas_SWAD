@@ -13,3 +13,7 @@ A continuación, para configurar las reglas del cortafuegos con IPTABLES, nos ir
 Tras guardar el script, ejecutaremos la orden `update-rc.d miScript.sh defaults` para que se ejecute el script cada vez que se inicie la máquina.
 
 Con estos pasos conseguirémos permitir el acceso a nuestra máquina solamente por el puerto 22, 80 y 443.
+
+A continuación, podemos obserbar que funciona correctamente, ya que podemos hacer `curl` tanto para el puerto 80 (http), como para el puerto 443 (https) y a su vez no podemos hacerle un ping a la ip.
+
+![Captura e](http://imgur.com/a/4wP0H.jpg "Funciona")
