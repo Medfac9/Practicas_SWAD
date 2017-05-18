@@ -1,7 +1,6 @@
 # Práctica 5
 
 Primeramente, para crear una base de datos, entramos a mysql en modo root con el comando `mysql -uroot -p` y a continuación usamos `create database contactos;`, `use contactos;`, `create table datos(nombre varchar(100),tlf int);` y con `show tables;` podemos ver la tabla creada.
-
 ![Captura 1](http://imgur.com/86mnOw1.jpg "Tabla creada")
 
 Pdemos introducir los datos con `insert into datos(nombre,tlf) values ("pepe",95834987);` y `select * from datos;` para ver la tabla.
