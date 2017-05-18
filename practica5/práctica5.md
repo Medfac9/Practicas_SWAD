@@ -1,9 +1,11 @@
 # Práctica 5
 
 Primeramente, para crear una base de datos, entramos a mysql en modo root con el comando `mysql -uroot -p` y a continuación usamos `create database contactos;`, `use contactos;`, `create table datos(nombre varchar(100),tlf int);` y con `show tables;` podemos ver la tabla creada.
+
 ![Captura 1](http://imgur.com/86mnOw1.jpg "Tabla creada")
 
 Pdemos introducir los datos con `insert into datos(nombre,tlf) values ("pepe",95834987);` y `select * from datos;` para ver la tabla.
+
 ![Captura 2](http://imgur.com/Zf5uTPY.jpg "Tabla rellenada")
 
 A continuación, vamos a realizar una copia de seguridad de nuesetra base de datos de la máquina uno. Accedemos a mysql en modo root, y seguidamente usamos el comando `FLUSH TABLES WITH READ LOCK;`, salimos de mysql y seguidamente realizamos la copia con `mysqldump contactos -u root -p > /tmp/contactos.sql` y como habiamos bloqueado la tabla a continuación accedemos a mysql y la desbloqueamos `UNLOCK TABLES;` 
