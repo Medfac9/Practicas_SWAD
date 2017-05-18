@@ -10,7 +10,7 @@ Una vez insstalado nginx, configuramos el fichero `/etc/nginx/conf.d/default.con
 
 ![Captura 2](http://imgur.com/YeubPh2.jpg "Prueba nginx sin weight")
 
-Como se puede apreciar, por defecto, el tráfico se dibide por igual para cada máquina, para distribuirlo a nuestro gusto, le hemos añadido `weight=` para que el tráfico de la máquina uno sea el doble que el de la máquina dos. Para combrobar el correcto funcionamiento, usamos `curl http://IP del balanceador`
+Como se puede apreciar, por defecto, el tráfico se divide por igual para cada máquina, para distribuirlo a nuestro gusto, le hemos añadido `weight=` para que el tráfico de la máquina uno sea el doble que el de la máquina dos. Para combrobar el correcto funcionamiento, usamos `curl http://IP del balanceador`
 
 ![Captura 3](http://imgur.com/1esHENc.jpg "Prueba nginx con weight")
 
