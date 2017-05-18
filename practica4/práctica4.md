@@ -16,4 +16,4 @@ Con estos pasos conseguirémos permitir el acceso a nuestra máquina solamente p
 
 A continuación, podemos obserbar que funciona correctamente, ya que podemos hacer `curl` tanto para el puerto 80 (http), como para el puerto 443 (https) y a su vez no podemos hacerle un ping a la ip.
 
-![Captura e](http://imgur.com/a/4wP0H.jpg "Funciona")
+![Captura e](http://imgur.com/LpgVx07.jpg "Funciona")
