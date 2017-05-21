@@ -18,12 +18,12 @@ Buscar información sobre precio y características de balanceadores hardware 
 ### Ejercicio 3
 Buscar información sobre los métodos de balanceo que implementan los dispositivos recogidos en el ejercicio 4.2
 
-Todos los anteriores anteriores implementan Round-Robin
+Todos los anteriores implementan Round-Robin
 
 ### Ejercicio 4
 Instala y configura en una máquina virtual el balanceador ZenLoadBalancer.
 
-Primeramente debemos de descargar la ISO de su página oficial. Una vez descargada vamos siguiendo los pasos que nos van saliendo como añadir la localización, idioma, etc. Una vez instalado ya habremos acabado y tendremos el balanceador listo para usarlo. 
+Primeramente, debemos de descargar la ISO de su página oficial. Una vez descargada vamos siguiendo los pasos que nos van saliendo como añadir la localización, idioma, etc. Una vez instalado ya habremos acabado y tendremos el balanceador listo para usarlo. 
 
 ### Ejercicio 5
 Probar las diferentes maneras de redirección HTTP. ¿Cuál es adecuada y cuál no lo es para hacer balanceo de carga global? ¿Por qué?
@@ -38,4 +38,4 @@ Para detectar la zona desde donde se conecta un usuario primeramente debemos loc
 ### Ejercicio 7
 Buscar información sobre métodos y herramientas para implementar GSLB.
 
-Primero debemos de tener dos localizaciones que queremos comunicar, deberían estas a bastante distancia ya que no tiene sentido montar GSLB en un mismo país. A continuación, configuramos el balanceador para que detecte la localización y mande al usuario al servidor más cercano.
+Primero debemos de tener dos localizaciones que queremos comunicar, deberían estar a bastante distancia ya que no tiene sentido montar GSLB en un mismo país. A continuación, configuramos el balanceador para que detecte la localización y mande al usuario al servidor más cercano.

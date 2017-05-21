@@ -11,10 +11,10 @@ Revisar los análisis de tráfico que se ofrecen en: http://bit.ly/1g0dkKj
 En la captura completa del tráfico de una navegación hacia la página www.bancochile.cl se ha logrado una captura de 891 paquetes durante 61 segundos.
 
 En la captura de pantalla que se puede apreciar en la web del enunciado, se establecen dos zonas de datos principales.
-En la primera es la se establece información del N° de Frame, tiempo de la captura, origen, destino, protocolo involucrado y por último un campo de información extra que previamente Wireshark a decodificado.
+En la primera es en la que se establece información del N° de Frame, tiempo de la captura, origen, destino, protocolo involucrado y por último, un campo de información extra que previamente Wireshark ha decodificado.
 La segunda zona muestra los datos del Frame capturado entregándonos información de todos los protocolos involucrados en la captura.
 
-### Ejercicio 3
+### Ejercicio 3
 Buscar información sobre características, disponibilidad para diversos SO, etc de herramientas para monitorizar las prestaciones de un servidor.
 
 * Nagios:
