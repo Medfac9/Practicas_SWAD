@@ -1,6 +1,6 @@
 # Práctica 6
 
-En la primera parte de la práctica 6 se pide configurar dos discos en RAID 1. Para ellos, hemos añadido dos discos, con el mismo tamaño, a nuestro servidor 1 como se puede apreciar en la foto:
+En la primera parte de la práctica 6 se pide configurar dos discos en RAID 1. Para ello, hemos añadido dos discos, con el mismo tamaño, a nuestro servidor 1 como se puede apreciar en la foto:
 
 ![Captura 1](http://imgur.com/C2jbRfK.jpg "Discos creados")
 
@@ -13,7 +13,7 @@ A continuación, creamos el RAID 1 con el siguiente comando `sudo mdadm -C /dev/
 ![Captura 3](http://imgur.com/cAyZO1y.jpg "RAID")
 ![Captura 4](http://imgur.com/MQX2xUD.jpg "Formato")
 
-Para mirar comprobar el estado del RAID ejecutamos el comando `sudo mdadm --detail /dev/md0`:
+Para comprobar el estado del RAID ejecutamos el comando `sudo mdadm --detail /dev/md0`:
 
 ![Captura 5](http://imgur.com/ufysyLm.jpg "Estado RAID")
 
@@ -26,7 +26,7 @@ Después, debemos añadir estos datos al final del archivo `/etc/fstab`:
 ![Captura 7](http://imgur.com/zk6FB01.jpg "Añadir UUID")
 
 Ya tenemos todo funcionando correctamente. Procedemos a realizar la segunda parte de la práctica, que consiste en simular el fallo de un disco y cambiarlo "en caliente".
-Para ellos primero simulamos el fallo de uno de los dos discos y comprobamos su estado:
+Para ello, primero simulamos el fallo de uno de los dos discos y comprobamos su estado:
 
 ![Captura 8](http://imgur.com/IMioTQA.jpg "Falla disco")
 
